@@ -1,6 +1,6 @@
 # Living Evidence Paper
 
-*Accelerating Frontier Science with a Living, Probabilistic Evidence Graph* (Joel Dietz): the Probknow paper. It was converted from the LaTeX/PDF version dated June 19, 2026. The manuscript is written in [dokieli](https://dokie.li/), as a single HTML file that is also the rendered article. The setup follows [nanopub-ecosystem-paper](https://github.com/knowledgepixels/nanopub-ecosystem-paper).
+*Accelerating Frontier Science with a Living, Probabilistic Evidence Graph* (Joel Dietz): the Project Delphi paper. It was converted from the LaTeX/PDF version dated June 19, 2026, which called the system Probknow. The manuscript is written in [dokieli](https://dokie.li/), as a single HTML file that is also the rendered article. The setup follows [nanopub-ecosystem-paper](https://github.com/knowledgepixels/nanopub-ecosystem-paper).
 
 ## Top-level layout
 
