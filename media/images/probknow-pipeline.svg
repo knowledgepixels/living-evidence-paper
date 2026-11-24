@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 818 220" width="818" height="220" role="img" aria-labelledby="title desc">
+  <title id="title">The Probknow pipeline</title>
+  <desc id="desc">Five boxes from left to right: scientific paper; claim extraction plus Bayesian weight of evidence (SPC spc/1.0); nanopublication (canonicalize, trusty URI, sign); registry (decentralized); Probknow evidence graph (time-versioned). A dashed arrow labelled "new evidence re-weights hypotheses" runs from the evidence graph back to claim extraction.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,1 L9,5 L0,9 z" fill="#444"/>
+    </marker>
+    <marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,1 L9,5 L0,9 z" fill="#c95f1a"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "Latin Modern Roman", "Computer Modern Serif", "Times New Roman", Times, serif; font-size: 16px; fill: #111; text-anchor: middle; }
+    .mono { font-family: "Latin Modern Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace; font-size: 15px; }
+    .label { font-size: 15px; fill: #c95f1a; }
+    .box { stroke-width: 1.4; }
+    .grey { fill: #f3f3f3; stroke: #555; }
+    .blue { fill: #edf2f9; stroke: #2f5f8f; }
+    .green { fill: #ebf6ef; stroke: #2e8555; }
+    .orange { fill: #fbefe7; stroke: #c95f1a; }
+    .flow { stroke: #444; stroke-width: 1.4; fill: none; }
+    .feedback { stroke: #c95f1a; stroke-width: 1.4; fill: none; stroke-dasharray: 6 4; }
+  </style>
+
+  <!-- Baked-in white panel so the figure stays readable on a dark page. -->
+  <rect width="818" height="220" fill="#fff"/>
+
+  <!-- Feedback arc -->
+  <path class="feedback" d="M733,104 C733,28 247,28 247,100" marker-end="url(#arrow-orange)"/>
+  <text class="label" x="490" y="34">new evidence re-weights hypotheses</text>
+
+  <!-- Boxes: x = 15 + 162 i, width 140, y 104–204 (centre y = 154) -->
+  <rect class="box grey" x="15" y="104" width="140" height="100" rx="6"/>
+  <text x="85" y="150">Scientific paper</text>
+  <text x="85" y="170">(PDF, DOI)</text>
+
+  <rect class="box blue" x="177" y="104" width="140" height="100" rx="6"/>
+  <text x="247" y="130">Claim extraction</text>
+  <text x="247" y="150">+ Bayesian</text>
+  <text x="247" y="170">weight of evidence</text>
+  <text x="247" y="190">(SPC <tspan class="mono">spc/1.0</tspan>)</text>
+
+  <rect class="box green" x="339" y="104" width="140" height="100" rx="6"/>
+  <text x="409" y="140">Nanopublication:</text>
+  <text x="409" y="160">canonicalize,</text>
+  <text x="409" y="180">trusty URI, sign</text>
+
+  <rect class="box green" x="501" y="104" width="140" height="100" rx="6"/>
+  <text x="571" y="150">Registry</text>
+  <text x="571" y="170">(decentralized)</text>
+
+  <rect class="box orange" x="663" y="104" width="140" height="100" rx="6"/>
+  <text x="733" y="140">Probknow</text>
+  <text x="733" y="160">evidence graph</text>
+  <text x="733" y="180">(time-versioned)</text>
+
+  <!-- Forward arrows -->
+  <path class="flow" d="M155,154 H175" marker-end="url(#arrow)"/>
+  <path class="flow" d="M317,154 H337" marker-end="url(#arrow)"/>
+  <path class="flow" d="M479,154 H499" marker-end="url(#arrow)"/>
+  <path class="flow" d="M641,154 H661" marker-end="url(#arrow)"/>
+</svg>
