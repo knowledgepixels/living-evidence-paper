@@ -1,0 +1,18 @@
+{
+  "taken_at": "2026-11-25T07:24:50Z",
+  "sparql_endpoint": "https://query.knowledgepixels.com/repo/full",
+  "app_api": "https://scienceoracle.com/api",
+  "keys": {
+    "4d848a970fc7663c3bdc39fc942260cba139e725a9243d0cc51f78dd102fd785": "pipeline-bot-2026-03",
+    "f3c0b0bab578b89d76861329e75651f32c7c8287557dd5ddb5a07cbb7118fecb": "author-key-1",
+    "403d674304853131343af2fd56c48a808c8754d0a7aa32ffb35aa0960cdbd97b": "author-key-2"
+  },
+  "rows": {
+    "nanopubs": 6342,
+    "assessments": 3752,
+    "dimension_scores": 43,
+    "claims": 2044,
+    "legacy_statements": 374,
+    "evidence_revisions": 4
+  }
+}

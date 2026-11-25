@@ -1,0 +1,28 @@
+{
+  "stats": {
+    "totalPapers": 60410,
+    "totalConcepts": 104,
+    "totalAssertions": 560676,
+    "avgEvidence": 0.8306236330944863
+  },
+  "domains_scope": "public-knowledge-graph",
+  "domains_generated_at": "2026-11-25T07:25:03.309Z",
+  "domain_count": 1052,
+  "economic": {
+    "forecasts": 30527,
+    "forecasts_with_market_size": 30527,
+    "market_size_sum_billion_usd": 240045.8,
+    "market_size_max_billion_usd": 350,
+    "mean_years_to_achievement": 6.35,
+    "by_source": {
+      "GPT-5 Pro": 23094,
+      "scout agents": 7416,
+      "Numerical Methods for Free Boundary Problems via Variational Inequalities in Exotic Option Pricing s": 9,
+      "Projective Geometry and Symmetry-Adapted Fourier Methods in Electron Diffraction Crystallography sco": 8
+    }
+  },
+  "publication_years": [
+    1781,
+    2026
+  ]
+}

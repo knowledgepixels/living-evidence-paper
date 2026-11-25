@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 592 272" width="592" height="272" role="img" aria-labelledby="title desc">
   <title id="title">The closed bench–graph loop</title>
-  <desc id="desc">A cycle of six boxes. Top row, left to right: wet lab (Xenopus pair, calcium imaging, injury); microscopy TIFF stacks; quantification (sparks to clusters to regions). An arrow leads down to evidence plus SPC nanopublication (weight of evidence), then left to the Project Delphi evidence graph, then left to hypothesis prioritization (what to test next), and back up to the wet lab.</desc>
+  <desc id="desc">A cycle of six boxes. Top row, left to right: wet lab (Xenopus pair, calcium imaging, injury); microscopy TIFF stacks; quantification (sparks to clusters to regions). An arrow leads down to evidence-item nanopublication (weight of evidence), then left to the Project Delphi evidence graph, then left to hypothesis prioritization (what to test next), and back up to the wet lab.</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
       <path d="M0,1 L9,5 L0,9 z" fill="#444"/>
@@ -50,7 +50,7 @@
   <text x="296" y="226">evidence graph</text>
 
   <rect class="box orange" x="412" y="170" width="160" height="80" rx="6"/>
-  <text x="492" y="196">Evidence + SPC</text>
+  <text x="492" y="196">Evidence item</text>
   <text x="492" y="216">nanopublication</text>
   <text x="492" y="236">(weight of evidence)</text>
 

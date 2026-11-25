@@ -1,0 +1,702 @@
+{
+  "snapshot": {
+    "taken_at": "2026-11-25T07:24:50Z",
+    "sparql_endpoint": "https://query.knowledgepixels.com/repo/full",
+    "app_api": "https://scienceoracle.com/api",
+    "keys": {
+      "4d848a970fc7663c3bdc39fc942260cba139e725a9243d0cc51f78dd102fd785": "pipeline-bot-2026-03",
+      "f3c0b0bab578b89d76861329e75651f32c7c8287557dd5ddb5a07cbb7118fecb": "author-key-1",
+      "403d674304853131343af2fd56c48a808c8754d0a7aa32ffb35aa0960cdbd97b": "author-key-2"
+    },
+    "rows": {
+      "nanopubs": 6342,
+      "assessments": 3752,
+      "dimension_scores": 43,
+      "claims": 2044,
+      "legacy_statements": 374,
+      "evidence_revisions": 4
+    }
+  },
+  "app": {
+    "stats_endpoint": {
+      "totalPapers": 60410,
+      "totalConcepts": 104,
+      "totalAssertions": 560676,
+      "avgEvidence": 0.8306236330944863
+    },
+    "domains": 1052,
+    "papers": 60410,
+    "claims": 559764,
+    "hypotheses": 17075,
+    "domains_with_hypotheses": 444,
+    "median_papers_per_domain": 60.0,
+    "median_claims_per_domain": 543.5,
+    "publication_years": [
+      1781,
+      2026
+    ],
+    "domain_families": [
+      {
+        "family": "math",
+        "domains": 609,
+        "papers": 30328,
+        "claims": 275494,
+        "hypotheses": 3952
+      },
+      {
+        "family": "electrochemical",
+        "domains": 128,
+        "papers": 8809,
+        "claims": 84209,
+        "hypotheses": 4225
+      },
+      {
+        "family": "gan",
+        "domains": 32,
+        "papers": 2523,
+        "claims": 24348,
+        "hypotheses": 1353
+      },
+      {
+        "family": "mems",
+        "domains": 22,
+        "papers": 1551,
+        "claims": 14752,
+        "hypotheses": 668
+      },
+      {
+        "family": "silicon",
+        "domains": 16,
+        "papers": 1092,
+        "claims": 10560,
+        "hypotheses": 477
+      },
+      {
+        "family": "(other)",
+        "domains": 245,
+        "papers": 16107,
+        "claims": 150401,
+        "hypotheses": 6400
+      }
+    ],
+    "economic": {
+      "forecasts": 30527,
+      "forecasts_with_market_size": 30527,
+      "market_size_sum_billion_usd": 240045.8,
+      "market_size_max_billion_usd": 350,
+      "mean_years_to_achievement": 6.35,
+      "by_source": {
+        "GPT-5 Pro": 23094,
+        "scout agents": 7416,
+        "Numerical Methods for Free Boundary Problems via Variational Inequalities in Exotic Option Pricing s": 9,
+        "Projective Geometry and Symmetry-Adapted Fourier Methods in Electron Diffraction Crystallography sco": 8
+      }
+    }
+  },
+  "network": {
+    "nanopubs": 6342,
+    "live": 6182,
+    "by_key": {
+      "4d848a97": {
+        "label": "Pipeline bot (bioelectricitynexus.com)",
+        "nanopubs": 183,
+        "live": 183,
+        "first": "2026-03-16",
+        "last": "2026-06-23"
+      },
+      "f3c0b0ba": {
+        "label": "Author key 1 (J. Dietz)",
+        "nanopubs": 1448,
+        "live": 1295,
+        "first": "2025-12-02",
+        "last": "2026-10-26"
+      },
+      "403d6743": {
+        "label": "Author key 2 (J. Dietz)",
+        "nanopubs": 4711,
+        "live": 4704,
+        "first": "2026-10-30",
+        "last": "2026-11-10"
+      }
+    },
+    "live_by_month": {
+      "2025-12": 1,
+      "2026-03": 1,
+      "2026-06": 182,
+      "2026-10": 5394,
+      "2026-11": 604
+    },
+    "live_by_kind": {
+      "model assessments": 3752,
+      "claims": 2044,
+      "pipeline statements, March-June 2026": 183,
+      "concepts (incl. rubrics and their dimensions)": 105,
+      "plans and activities": 88,
+      "datasets": 5,
+      "evidence items (executed tests)": 3,
+      "other (key declaration, profile image)": 2
+    },
+    "claims_also_testable_hypotheses": 21,
+    "live_by_type": {
+      "LLMClaimAssessment": 3752,
+      "Claim": 2044,
+      "Concept": 105,
+      "Activity": 57,
+      "Plan": 38,
+      "TestableHypothesis": 21,
+      "Dataset": 5,
+      "EvidenceItem": 3,
+      "declaredBy": 2,
+      "urn:pkg:TestableHypothesis": 1,
+      "image": 1
+    },
+    "live_without_type": 181,
+    "live_by_domain": {
+      "morphogenesis": {
+        "nanopubs": 1260,
+        "claims": 118,
+        "assessments": 1040
+      },
+      "wolfram-nks-2002": {
+        "nanopubs": 963,
+        "claims": 321,
+        "assessments": 642
+      },
+      "levin-papers": {
+        "nanopubs": 930,
+        "claims": 310,
+        "assessments": 620
+      },
+      "thompson-growth-form-1917": {
+        "nanopubs": 882,
+        "claims": 291,
+        "assessments": 582
+      },
+      "darwin-origin-1859": {
+        "nanopubs": 742,
+        "claims": 247,
+        "assessments": 494
+      },
+      "aristotle-biology": {
+        "nanopubs": 566,
+        "claims": 566,
+        "assessments": 0
+      },
+      "evolution-after-darwin": {
+        "nanopubs": 186,
+        "claims": 62,
+        "assessments": 124
+      },
+      "crystals-and-form": {
+        "nanopubs": 162,
+        "claims": 54,
+        "assessments": 108
+      },
+      "buehler-protein-materials": {
+        "nanopubs": 156,
+        "claims": 52,
+        "assessments": 104
+      },
+      "open-problems": {
+        "nanopubs": 82,
+        "claims": 0,
+        "assessments": 0
+      },
+      "math-population-genetics-and-evolutionary-theory": {
+        "nanopubs": 18,
+        "claims": 18,
+        "assessments": 0
+      },
+      "levin-lab": {
+        "nanopubs": 17,
+        "claims": 1,
+        "assessments": 16
+      },
+      "palaeobiology": {
+        "nanopubs": 17,
+        "claims": 1,
+        "assessments": 16
+      },
+      "delphisci-project": {
+        "nanopubs": 7,
+        "claims": 0,
+        "assessments": 6
+      },
+      "math-reaction-diffusion-equations-and-turing-patte": {
+        "nanopubs": 3,
+        "claims": 3,
+        "assessments": 0
+      }
+    }
+  },
+  "claims": {
+    "claim_nanopubs": 2044,
+    "distinct_claims": 2043,
+    "by_kind": {
+      "empirical-generalization": 744,
+      "mechanism": 288,
+      "(none given)": 141,
+      "prediction": 136,
+      "conceptual": 131,
+      "computational-observation": 93,
+      "mathematical-law": 92,
+      "historical-inference": 90,
+      "experimental-result": 88,
+      "simulation-result": 58,
+      "general-principle": 55,
+      "mathematical": 52,
+      "model-of-nature": 43,
+      "physical-hypothesis": 18,
+      "theoretical": 12,
+      "definition": 3
+    }
+  },
+  "assessments": {
+    "introduced_assessments": 3752,
+    "rubric_scores": [
+      {
+        "rubric": "dataset-resolvability/0.1.0",
+        "dimension": "",
+        "model": "Grok 4.7",
+        "n": 247,
+        "mean": 0.588
+      },
+      {
+        "rubric": "dataset-resolvability/0.1.0",
+        "dimension": "",
+        "model": "GPT-5.6 Sol",
+        "n": 247,
+        "mean": 0.675
+      },
+      {
+        "rubric": "dataset-resolvability/0.2.0",
+        "dimension": "",
+        "model": "GPT-5.6 Sol",
+        "n": 1090,
+        "mean": 0.611
+      },
+      {
+        "rubric": "dataset-resolvability/0.2.0",
+        "dimension": "",
+        "model": "Grok 4.7",
+        "n": 922,
+        "mean": 0.52
+      },
+      {
+        "rubric": "dataset-resolvability/0.2.0",
+        "dimension": "",
+        "model": "Gemini 4 Argon",
+        "n": 168,
+        "mean": 0.75
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "code-traceability",
+        "model": "Gemini 4 Argon",
+        "n": 68,
+        "mean": 0.88
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "code-traceability",
+        "model": "Claude Fable 5.1",
+        "n": 54,
+        "mean": 0.861
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "code-traceability",
+        "model": "Muse Wonder 1.0",
+        "n": 1,
+        "mean": 0.74
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "model-fidelity",
+        "model": "Gemini 4 Argon",
+        "n": 68,
+        "mean": 0.878
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "model-fidelity",
+        "model": "Claude Fable 5.1",
+        "n": 54,
+        "mean": 0.829
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "model-fidelity",
+        "model": "Muse Wonder 1.0",
+        "n": 1,
+        "mean": 0.74
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "morphometric-validation",
+        "model": "Gemini 4 Argon",
+        "n": 68,
+        "mean": 0.834
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "morphometric-validation",
+        "model": "Claude Fable 5.1",
+        "n": 54,
+        "mean": 0.773
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "morphometric-validation",
+        "model": "Muse Wonder 1.0",
+        "n": 1,
+        "mean": 0.85
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "overall",
+        "model": "Gemini 4 Argon",
+        "n": 68,
+        "mean": 0.864
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "overall",
+        "model": "Claude Fable 5.1",
+        "n": 54,
+        "mean": 0.821
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "overall",
+        "model": "Muse Wonder 1.0",
+        "n": 1,
+        "mean": 0.746
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "parameter-expressivity",
+        "model": "Gemini 4 Argon",
+        "n": 68,
+        "mean": 0.863
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "parameter-expressivity",
+        "model": "Claude Fable 5.1",
+        "n": 54,
+        "mean": 0.844
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "parameter-expressivity",
+        "model": "Muse Wonder 1.0",
+        "n": 1,
+        "mean": 0.8
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "repro-package",
+        "model": "Gemini 4 Argon",
+        "n": 68,
+        "mean": 0.902
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "repro-package",
+        "model": "Claude Fable 5.1",
+        "n": 54,
+        "mean": 0.896
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "repro-package",
+        "model": "Muse Wonder 1.0",
+        "n": 1,
+        "mean": 0.76
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "source-traceability",
+        "model": "Gemini 4 Argon",
+        "n": 68,
+        "mean": 0.896
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "source-traceability",
+        "model": "Claude Fable 5.1",
+        "n": 54,
+        "mean": 0.862
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "source-traceability",
+        "model": "Muse Wonder 1.0",
+        "n": 1,
+        "mean": 0.9
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "specimen-match",
+        "model": "Gemini 4 Argon",
+        "n": 68,
+        "mean": 0.836
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "specimen-match",
+        "model": "Claude Fable 5.1",
+        "n": 54,
+        "mean": 0.767
+      },
+      {
+        "rubric": "morphoeval/0.1.0",
+        "dimension": "specimen-match",
+        "model": "Muse Wonder 1.0",
+        "n": 1,
+        "mean": 0.6
+      },
+      {
+        "rubric": "scienceclaw-rubric/0.1.0",
+        "dimension": "",
+        "model": "Gemini 4 Argon",
+        "n": 2,
+        "mean": 0.652
+      },
+      {
+        "rubric": "scienceclaw-rubric/0.1.0",
+        "dimension": "",
+        "model": "GPT-5.6 Sol",
+        "n": 2,
+        "mean": 0.712
+      },
+      {
+        "rubric": "scienceclaw-rubric/0.1.0",
+        "dimension": "",
+        "model": "Grok 4.7",
+        "n": 2,
+        "mean": 0.597
+      }
+    ],
+    "verdicts": {
+      "dataset-resolvability/0.1.0": {
+        "partially-resolvable": 350,
+        "resolvable-now": 129,
+        "needs-new-data": 8,
+        "not-empirically-resolvable": 7
+      },
+      "dataset-resolvability/0.2.0": {
+        "partially-resolvable": 1251,
+        "resolvable-now": 501,
+        "needs-new-data": 225,
+        "not-empirically-resolvable": 203
+      }
+    },
+    "probability_assessments": {
+      "Claude Fable 5.1": {
+        "n": 72,
+        "mean": 0.683
+      },
+      "GPT-5.6 Sol": {
+        "n": 8,
+        "mean": 0.593
+      },
+      "Gemini 4 Argon": {
+        "n": 8,
+        "mean": 0.877
+      }
+    },
+    "rubric_families": {
+      "dataset-resolvability": {
+        "GPT-5.6 Sol": {
+          "n": 1337,
+          "mean": 0.623
+        },
+        "Grok 4.7": {
+          "n": 1169,
+          "mean": 0.535
+        },
+        "Gemini 4 Argon": {
+          "n": 168,
+          "mean": 0.75
+        }
+      },
+      "morphoeval": {
+        "Gemini 4 Argon": {
+          "n": 68,
+          "mean": 0.864
+        },
+        "Claude Fable 5.1": {
+          "n": 54,
+          "mean": 0.821
+        },
+        "Muse Wonder 1.0": {
+          "n": 1,
+          "mean": 0.746
+        }
+      },
+      "scienceclaw-rubric": {
+        "Gemini 4 Argon": {
+          "n": 2,
+          "mean": 0.652
+        },
+        "GPT-5.6 Sol": {
+          "n": 2,
+          "mean": 0.712
+        },
+        "Grok 4.7": {
+          "n": 2,
+          "mean": 0.597
+        }
+      }
+    },
+    "resolvability_claims_assessed": 1337,
+    "resolvability_claims_with_two_or_more_models": 1337,
+    "resolvability_agreement": [
+      {
+        "models": [
+          "GPT-5.6 Sol",
+          "Grok 4.7"
+        ],
+        "claims": 1169,
+        "mean_scores": [
+          0.621,
+          0.535
+        ],
+        "mean_abs_score_difference": 0.107,
+        "pearson_r": 0.843,
+        "same_verdict_share": 0.725
+      },
+      {
+        "models": [
+          "GPT-5.6 Sol",
+          "Gemini 4 Argon"
+        ],
+        "claims": 168,
+        "mean_scores": [
+          0.637,
+          0.75
+        ],
+        "mean_abs_score_difference": 0.143,
+        "pearson_r": 0.799,
+        "same_verdict_share": 0.548
+      }
+    ],
+    "resolvability_by_domain": {
+      "wolfram-nks-2002": {
+        "claims": 321,
+        "assessments": 642,
+        "mean_score": 0.583,
+        "resolvable_now_all_models": 65,
+        "resolvable_now_any_model": 104,
+        "not_empirically_resolvable_all_models": 20
+      },
+      "levin-papers": {
+        "claims": 310,
+        "assessments": 620,
+        "mean_score": 0.52,
+        "resolvable_now_all_models": 21,
+        "resolvable_now_any_model": 46,
+        "not_empirically_resolvable_all_models": 21
+      },
+      "thompson-growth-form-1917": {
+        "claims": 291,
+        "assessments": 582,
+        "mean_score": 0.588,
+        "resolvable_now_all_models": 42,
+        "resolvable_now_any_model": 81,
+        "not_empirically_resolvable_all_models": 13
+      },
+      "darwin-origin-1859": {
+        "claims": 247,
+        "assessments": 494,
+        "mean_score": 0.632,
+        "resolvable_now_all_models": 43,
+        "resolvable_now_any_model": 86,
+        "not_empirically_resolvable_all_models": 2
+      },
+      "evolution-after-darwin": {
+        "claims": 62,
+        "assessments": 124,
+        "mean_score": 0.747,
+        "resolvable_now_all_models": 21,
+        "resolvable_now_any_model": 43,
+        "not_empirically_resolvable_all_models": 2
+      },
+      "crystals-and-form": {
+        "claims": 54,
+        "assessments": 108,
+        "mean_score": 0.727,
+        "resolvable_now_all_models": 16,
+        "resolvable_now_any_model": 39,
+        "not_empirically_resolvable_all_models": 6
+      },
+      "buehler-protein-materials": {
+        "claims": 52,
+        "assessments": 104,
+        "mean_score": 0.595,
+        "resolvable_now_all_models": 5,
+        "resolvable_now_any_model": 18,
+        "not_empirically_resolvable_all_models": 3
+      }
+    },
+    "resolvability_totals": {
+      "claims": 1337,
+      "resolvable_now_all_models": 213,
+      "resolvable_now_any_model": 417,
+      "not_empirically_resolvable_all_models": 67
+    },
+    "resolvability_dimension_means": {
+      "analysis-feasibility": {
+        "GPT-5.6 Sol": 0.626,
+        "Gemini 4 Argon": 0.777,
+        "Grok 4.7": 0.513
+      },
+      "data-adequacy": {
+        "GPT-5.6 Sol": 0.49,
+        "Gemini 4 Argon": 0.707,
+        "Grok 4.7": 0.446
+      },
+      "data-existence": {
+        "GPT-5.6 Sol": 0.659,
+        "Gemini 4 Argon": 0.755,
+        "Grok 4.7": 0.558
+      },
+      "discriminating-power": {
+        "GPT-5.6 Sol": 0.619,
+        "Gemini 4 Argon": 0.745,
+        "Grok 4.7": 0.502
+      },
+      "operationalizability": {
+        "GPT-5.6 Sol": 0.713,
+        "Gemini 4 Argon": 0.771,
+        "Grok 4.7": 0.642
+      }
+    }
+  },
+  "legacy": {
+    "nanopubs": 183,
+    "statements": 374,
+    "types_stated": {
+      "BayesianAssessment": 32,
+      "EvidenceItem": 1,
+      "Assertion": 1,
+      "urn:pkg:TestableHypothesis": 1
+    },
+    "bayesian_assessments_with_deciban": 28,
+    "deciban_min": 18.049197,
+    "deciban_median": 26.288284,
+    "deciban_max": 50.0255,
+    "deciban_most_common_value": 26.288284,
+    "deciban_most_common_count": 18,
+    "assessments_with_conflicting_values": 1,
+    "last_published": "2026-06-23"
+  },
+  "tests": {
+    "evidence_item_nanopubs": 3,
+    "dataset_nanopubs": 5,
+    "evidence_items_with_revisions": 1,
+    "recorded_revisions": 2
+  }
+}

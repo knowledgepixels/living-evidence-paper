@@ -16,14 +16,16 @@
   - `css/`: `lncs.css` (the default style), `acm.css` (an alternate style that dokieli can switch to), and `draft.css` (styles `<mark class="todo">` and `<mark class="note">` for draft comments). Changes made for this project are at the end of `lncs.css` and `acm.css`, under "Project tweaks".
   - `fonts/`: the Computer Modern Unicode fonts that the stylesheets use.
   - `images/`: the figures, as hand-written SVG redrawn from the TikZ originals. Edit them directly. Each one has a white background panel, so it stays readable when the page is in dark mode.
+- **`analysis/`**: the scripts and snapshot data behind the counts in the paper (deployed graph, model panels, state of the network). See `analysis/README.md` for how to refresh them.
 - **`scripts/`**: build scripts. Both need Chrome, plus network access to load dokieli from dokie.li. The RTF script also needs `pandoc` and ImageMagick (`convert`).
   - `make-pdf.sh`: writes `paper.pdf` (A4).
-  - `make-rtf.sh`: writes `paper.rtf`, with the figures rasterised to PNG. pandoc cannot convert equations 3 and 4 into RTF math, so they appear as TeX source.
+  - `make-rtf.sh`: writes `paper.rtf`, with the figures rasterised to PNG. pandoc cannot convert equations 1, 3 and 4 into RTF math, so they appear as TeX source.
 - **`local/`**: git-ignored working material, including the original PDF (`local/original-2026-06-19.pdf`).
 
 ## Authoring conventions
 
 - Section, figure, table, listing and equation numbers come from CSS counters. In-text references such as "Section 4", "Figure 1" or "Eq. (3)" are typed by hand and link to the element's `id`. If you reorder anything, update those references too.
 - Displayed equations are MathML inside `<figure class="equation">`. Inline variables are written as `<em>p</em>`, `<em>K</em><sub>combined</sub>`, and so on.
-- Citations are written as `[<a class="ref" href="#ref-N">N</a>]`. The references keep the numbering and text of the original PDF.
+- Citations are written as `[<a class="ref" href="#ref-N">N</a>]`. The references keep the text of the original PDF, with one addition: Thompson 1917 was inserted as [16], which moved the last reference to [17].
+- Counts of papers, claims, nanopublications and assessments are dated ("as of November 25, 2026") and come from `analysis/`. When the snapshot is refreshed, update the numbers and the date in the abstract, Section 3.1, Section 5.2, Section 7, the case studies and Tables 1 to 4.
 - Versions: when a version is released, follow the nanopub-ecosystem-paper convention. Add a version line and a change log entry to `index.html`, then freeze a copy in `v<version>/` along with its figures. The copy's stylesheet links point one level up (`../media/css/`).

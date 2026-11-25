@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 818 220" width="818" height="220" role="img" aria-labelledby="title desc">
   <title id="title">The Project Delphi pipeline</title>
-  <desc id="desc">Five boxes from left to right: scientific paper; claim extraction plus Bayesian weight of evidence (SPC spc/1.0); nanopublication (canonicalize, trusty URI, sign); registry (decentralized); Project Delphi evidence graph (time-versioned). A dashed arrow labelled "new evidence re-weights hypotheses" runs from the evidence graph back to claim extraction.</desc>
+  <desc id="desc">Five boxes from left to right: scientific paper; claim extraction plus assessment (Bayesian, rubric, executed test); nanopublication (canonicalize, trusty URI, sign); registry (decentralized); Project Delphi evidence graph (time-versioned). A dashed arrow labelled "new evidence re-weights hypotheses" runs from the evidence graph back to claim extraction.</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
       <path d="M0,1 L9,5 L0,9 z" fill="#444"/>
@@ -36,9 +36,9 @@
 
   <rect class="box blue" x="177" y="104" width="140" height="100" rx="6"/>
   <text x="247" y="130">Claim extraction</text>
-  <text x="247" y="150">+ Bayesian</text>
-  <text x="247" y="170">weight of evidence</text>
-  <text x="247" y="190">(SPC <tspan class="mono">spc/1.0</tspan>)</text>
+  <text x="247" y="150">+ assessment</text>
+  <text x="247" y="170">(Bayesian, rubric,</text>
+  <text x="247" y="190">executed test)</text>
 
   <rect class="box green" x="339" y="104" width="140" height="100" rx="6"/>
   <text x="409" y="140">Nanopublication:</text>
